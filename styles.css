@@ -1,0 +1,152 @@
+.container {
+  border: 2px solid #28527a;
+  height: 600px;
+  width: 900px;
+}
+
+body {
+  padding-top: 5px;
+}
+
+a {
+  font-size: 12px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin: 3px;
+}
+
+.top-a {
+  background-color: #28527a;
+  color: white;
+  font-size: 20px;
+  padding: 0px 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 3px;
+}
+
+.right-side {
+  display: inline;
+  float: right;
+  background-color: #28527a;
+}
+
+ul {
+  display: inline;
+  float: right;
+}
+
+.nav2 {
+  display: inline;
+  float: left;
+}
+
+.topdiv {
+  background-color: #28527a;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  float: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+      grid-template-areas: ". i i ." "j j j j"  "k k k k" "a b c d" "e f g h"  ". l l .";
+  height: 400px;
+  width: 1100px;
+  padding: 0px 200px;
+  grid-gap: 15px;
+}
+
+.i {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: i;
+}
+
+.j {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: j;
+}
+
+.k {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: k;
+}
+
+.a {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: a;
+}
+
+.b {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: b;
+}
+
+.c {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: c;
+}
+
+.d {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+  grid-area: d;
+}
+
+.e {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: e;
+}
+
+.f {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: f;
+}
+
+.g {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: g;
+}
+
+.h {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  grid-area: h;
+}
+
+.l {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: l;
+}
+
+img {
+  width: 100px;
+  height: 70px;
+}
+/*# sourceMappingURL=styles.css.map */
